@@ -36,10 +36,11 @@ def chats_home():
     with options to open each chat.
     """
     st.set_page_config(
-        page_title="Legal Land assistant"
+        page_title="Legal Land assistant",
+        page_icon="⚖️", layout="wide"
     ) 
     st.markdown(
-        "<h1 style='text-align: center;'>🤖 LEGAL LAND ASSISTANT</h1>", unsafe_allow_html=True
+        "<h1 style='text-align: center;'>LEGAL LAND ASSISTANT⚖️</h1>", unsafe_allow_html=True
     )
 
     with st.container(border=True):
