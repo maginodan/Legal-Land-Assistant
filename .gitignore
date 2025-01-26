@@ -6,5 +6,6 @@ persist/
 __pycache__/
 *.sqlite
 .env
+oracl
 
 
