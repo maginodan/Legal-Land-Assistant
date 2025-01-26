@@ -40,16 +40,16 @@ def chats_home():
         page_icon="⚖️",
         layout="centered",
     )
-    placeholder = st.empty()
+    # placeholder = st.empty()
 
-    # Custom loading animation
-    for i in range(10):  # Simulate loading steps
-        dots = "." * (i % 4)  # Rotate through 0, 1, 2, 3 dots
-        placeholder.markdown(f"<h1 style='text-align: center;'>⚖️ Loading{dots}</h1>", unsafe_allow_html=True)
-        time.sleep(0.5)  # Adjust the speed of the animation
+    # # Custom loading animation
+    # for i in range(10):  # Simulate loading steps
+    #     dots = "." * (i % 4)  # Rotate through 0, 1, 2, 3 dots
+    #     placeholder.markdown(f"<h1 style='text-align: center;'>⚖️ Loading{dots}</h1>", unsafe_allow_html=True)
+    #     time.sleep(0.5)  # Adjust the speed of the animation
 
-    # Clear the placeholder and display the main content
-    placeholder.empty()
+    # # Clear the placeholder and display the main content
+    # placeholder.empty()
     st.markdown(
         "<h1 style='text-align: center;'>LEGAL LAND ASSISTANT⚖️</h1>", unsafe_allow_html=True
     )
