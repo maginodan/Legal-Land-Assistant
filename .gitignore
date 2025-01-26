@@ -1,2 +1,10 @@
 # Ignore SQLite database files
 doc_sage.sqlite
+env/
+temp_files/
+persist/
+__pycache__/
+*.sqlite
+.env
+
+
